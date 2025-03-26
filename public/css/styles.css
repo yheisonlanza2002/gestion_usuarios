@@ -1,0 +1,141 @@
+/* Importar fuente moderna */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Estilos globales */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 70px; /* Espaciado para evitar que el navbar cubra el contenido */
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(45deg, #0d6efd, #0b5ed7);
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  transform: scale(1.1);
+}
+
+/* Botones */
+.btn {
+  transition: all 0.3s ease-in-out;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-3px);
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
+/* Sección principal */
+h2, h3 {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+.lead {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+/* Beneficios */
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Iconos */
+.card i {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+/* Testimonios */
+blockquote {
+  font-style: italic;
+  color: #666;
+  background: white;
+  padding: 20px;
+  border-left: 5px solid #0d6efd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+blockquote:hover {
+  transform: translateY(-5px);
+}
+
+/* Preguntas Frecuentes */
+.accordion-button {
+  background: #0d6efd;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.accordion-button:hover {
+  background-color: #0b5ed7;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-body {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 1rem;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}

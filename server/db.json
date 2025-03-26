@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "123456",
+      "role": "visualizador"
+    },
+    {
+      "id": 3,
+      "email": "nuevo@example.com",
+      "password": "789012",
+      "role": "visualizador"
+    },
+    {
+      "id": "f503",
+      "name": "Yheison Stiven Lanza Rojas",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "0fa9",
+      "name": "otro",
+      "email": "otro@gmail.com",
+      "password": "1234",
+      "role": "admin"
+    }
+  ]
+}

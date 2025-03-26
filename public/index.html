@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Usuarios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-white shadow">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">Gestión de Usuarios</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+              <a href="login.html" class="btn btn-primary me-2">Ingresar</a>
+              <a href="register.html" class="btn btn-outline-light"
+                >Registrarse</a
+              >
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mt-5">
+      <section class="text-center">
+        <h2 class="fw-bold">
+          Bienvenido a la Plataforma de Gestión de Usuarios
+        </h2>
+        <p class="lead">Administra y visualiza usuarios de manera sencilla.</p>
+      </section>
+
+      <!-- Sección de Beneficios -->
+      <section class="mt-5">
+        <h3 class="text-center">Beneficios de nuestra plataforma</h3>
+        <div class="row text-center mt-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 border-0">
+              <i class="bi bi-ui-checks fs-1 text-primary"></i>
+              <h4>Fácil de Usar</h4>
+              <p>Interfaz intuitiva para una gestión sin complicaciones.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 border-0">
+              <i class="bi bi-shield-lock fs-1 text-primary"></i>
+              <h4>Seguridad</h4>
+              <p>Protegemos tus datos con altos estándares de seguridad.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm p-3 border-0">
+              <i class="bi bi-globe fs-1 text-primary"></i>
+              <h4>Accesible</h4>
+              <p>
+                Disponible en cualquier dispositivo con conexión a internet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonios -->
+      <section class="mt-5">
+        <h3 class="text-center">Lo que dicen nuestros usuarios</h3>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="card p-3 shadow-sm border-0">
+              <blockquote class="blockquote text-center">
+                <p>
+                  "Una herramienta increíble para gestionar usuarios de manera
+                  eficiente."
+                </p>
+                <footer class="blockquote-footer">Carlos López</footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card p-3 shadow-sm border-0">
+              <blockquote class="blockquote text-center">
+                <p>
+                  "Muy fácil de usar y con gran soporte técnico. 100%
+                  recomendada."
+                </p>
+                <footer class="blockquote-footer">María Fernández</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Preguntas Frecuentes -->
+      <section class="mt-5">
+        <h3 class="text-center">Preguntas Frecuentes</h3>
+        <div class="accordion mt-3" id="faqAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+              >
+                ¿Cómo me registro en la plataforma?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                Haz clic en "Registrarse" y completa el formulario con tus
+                datos.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+              >
+                ¿Es seguro el manejo de mis datos?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Sí, utilizamos protocolos de seguridad avanzados para proteger
+                tu información.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+              >
+                ¿Puedo administrar múltiples usuarios?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Sí, puedes gestionar múltiples usuarios desde el panel de
+                administrador.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+      <p class="mb-0">
+        &copy; 2025 Gestión de Usuarios. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></script>
+  </body>
+</html>
