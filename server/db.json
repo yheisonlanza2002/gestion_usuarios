@@ -1,19 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "admin@example.com",
-      "password": "123456",
-      "role": "admin"
-    },
-    {
-      "id": 2,
-      "email": "user@example.com",
-      "password": "123456",
-      "role": "visualizador"
-    },
-    {
-      "id": 3,
+      "id": "3",
       "email": "nuevo@example.com",
       "password": "789012",
       "role": "visualizador"
@@ -31,6 +19,13 @@
       "email": "otro@gmail.com",
       "password": "1234",
       "role": "admin"
+    },
+    {
+      "id": "c82d",
+      "name": "Yheison lanza",
+      "email": "y@gmail.com",
+      "password": "12345",
+      "role": "visualizador"
     }
   ]
 }
